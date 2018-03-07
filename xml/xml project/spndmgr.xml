@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE spndmgr[
+<!ELEMENT spndmgr (expenses)*>
+<!ELEMENT expenses (date,amount,category,description)>
+<!ELEMENT category (categoryname,description)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT categoryname (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+]>
+<spndmgr>
+	<expenses>
+		<date>2015-04-12</date>
+		<amount>1200</amount>
+		<category>
+			<categoryname>food</categoryname>
+			<description>Types of food</description>
+		</category>
+		<description>Your expenses for this date</description>
+	</expenses>
+	<expenses>
+		<date>2015-04-14</date>
+		<amount>5000</amount>
+		<category>
+			<categoryname>clothes</categoryname>
+			<description>Bought a trouser</description>
+		</category>
+		<description>Your expenses for this date</description>
+	</expenses>
+</spndmgr>

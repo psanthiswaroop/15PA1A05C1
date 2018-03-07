@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE studentinfo[
+<!ELEMENT studentinfo (student)*>
+<!ELEMENT student (name,redno,branch,address)>
+<!ELEMENT name (firstname,secondname)>
+<!ELEMENT address (doorno,street,city,phone)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT secondname (#PCDATA)>
+<!ELEMENT redno (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+<!ELEMENT doorno (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT phone (#PCDATA)*>
+]>
+<studentinfo>
+	<student>
+		<name>
+			<firstname>Swaroop</firstname>
+			<secondname>Patnala</secondname>
+		</name>
+		<redno>15PA1A05C1</redno>
+		<branch>CSE</branch>
+		<address>
+			<doorno>8-122</doorno>
+			<street>2nd road</street>
+			<city>polavaram</city>
+			<phone>9494291278</phone>
+		</address>
+	</student>
+	<student>
+		<name>
+			<firstname>Basha</firstname>
+			<secondname>Nagur</secondname>
+		</name>
+		<redno>15PA1A05F7</redno>
+		<branch>CSE</branch>
+		<address>
+			<doorno>9-54</doorno>
+			<street>karrivari street</street>
+			<city>kodali</city>
+			<phone>956231478</phone>
+		</address>
+	</student>
+	<student>
+		<name>
+			<firstname>Nittala</firstname>
+			<secondname>Rajesh</secondname>
+		</name>
+		<redno>15PA1A05A7</redno>
+		<branch>CSE</branch>
+		<address>
+			<doorno>7-56</doorno>
+			<street>ameerpet</street>
+			<city>hyderabad</city>
+			<phone>9758461345</phone>
+		</address>
+	</student>
+</studentinfo>

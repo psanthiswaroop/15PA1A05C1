@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+  <input id="word" type="text" placeholder="enter a word" onkeyup="ToCaps()">
+  <button onclick="ToCaps()">TO CAPITAL</button>
+  <p id="res"></p>
+  <script>
+    var x,output;
+    function ToCaps(){
+      x=document.getElementById("word").value;
+      output=x.toUpperCase();
+      document.getElementById("res").innerHTML=output;
+    }
+  </script>
+</html>

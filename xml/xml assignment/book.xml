@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE bookinfo[
+<!ELEMENT bookinfo (book)*>
+<!ELEMENT book (title,author,isbn,publisher,edition,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<bookinfo>
+	<book>
+		<title>Analysis of AAlgorithm</title>
+		<author>Stein</author>
+		<isbn>1234</isbn>
+		<publisher>MIT Press</publisher>
+		<edition>3</edition>
+		<price>2500</price>
+	</book>
+	<book>
+		<title>The Goal</title>
+		<author>Goldratt</author>
+		<isbn>4213</isbn>
+		<publisher>North River Press</publisher>
+		<edition>latest</edition>
+		<price>3450</price>
+	</book>
+	<book>
+		<title>Introduction to propability</title>
+		<author>J.Tsitskills</author>
+		<isbn>5847</isbn>
+		<publisher>Athena Scientifc</publisher>
+		<edition>latest</edition>
+		<price>5312</price>
+	</book>
+</bookinfo>

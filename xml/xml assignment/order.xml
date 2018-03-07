@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE orderform[
+<!ELEMENT orderform (customer)*>
+<!ELEMENT customer (name,address,telephone,product)>
+<!ELEMENT address (doorno,street,pin)>
+<!ELEMENT product (productno,productname)*>
+<!ELEMENT telephone (mobile,home)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT doorno (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT pin (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT home (#PCDATA)>
+<!ELEMENT productno (#PCDATA)>
+<!ELEMENT productname (#PCDATA)>
+]>
+<orderform>
+	<customer>
+		<name>Swaroop</name>
+		<address>
+			<doorno>8-122</doorno>
+			<street>nallavaristreet</street>
+			<pin>534315</pin>
+		</address>
+		<telephone>
+			<mobile>9494291278</mobile>
+			<home>08811251428</home>
+		</telephone>
+		<product>
+			<productno>1</productno>
+			<productname>watch</productname>
+		</product>
+	</customer>
+	<customer>
+		<name>Basha</name>
+		<address>
+			<doorno>7-56</doorno>
+			<street>karrivaristreet</street>
+			<pin>534124</pin>
+		</address>
+		<telephone>
+			<mobile>9854671230</mobile>
+			<home>08811246153</home>
+		</telephone>
+		<product>
+			<productno>5</productno>
+			<productname>shoes</productname>
+		</product>
+	</customer>
+	<customer>
+		<name>Rajesh</name>
+		<address>
+			<doorno>8-23</doorno>
+			<street>ameerpet</street>
+			<pin>534452</pin>
+		</address>
+		<telephone>
+			<mobile>9856474023</mobile>
+			<home>08823251478</home>
+		</telephone>
+		<product>
+			<productno>15</productno>
+			<productname>clothes</productname>
+		</product>
+	</customer>
+</employeeinfo>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE addressbook[
+<!ELEMENT addressbook (address)*>
+<!ELEMENT address (permanent,temporary)>
+<!ELEMENT permanent (doorno,street,state,pin)>
+<!ELEMENT temporary (doorno,street,state,pin)>
+<!ELEMENT doorno (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT pin (#PCDATA)>
+]>
+<addressbook>
+	<address>
+		<permanent>
+			<doorno>8-122</doorno>
+			<street>nallavari</street>
+			<state>AP</state>
+			<pin>534315</pin>
+		</permanent>
+		<temporary>
+			<doorno>1-78</doorno>
+			<street>kovvada</street>
+			<state>AP</state>
+			<pin>534202</pin>
+		</temporary>	
+	</address>
+	<address>
+		<permanent>
+			<doorno>9-65</doorno>
+			<street>karrivari</street>
+			<state>AP</state>
+			<pin>534124</pin>
+		</permanent>
+		<temporary>
+			<doorno>1-78</doorno>
+			<street>kovvada</street>
+			<state>AP</state>
+			<pin>534202</pin>
+		</temporary>	
+	</address>
+	<address>
+		<permanent>
+			<doorno>7-62</doorno>
+			<street>ammerpet</street>
+			<state>telangana</state>
+			<pin>534452</pin>
+		</permanent>
+		<temporary>
+			<doorno>1-78</doorno>
+			<street>kovvada</street>
+			<state>AP</state>
+			<pin>534202</pin>
+		</temporary>	
+	</address>
+</addressbook>

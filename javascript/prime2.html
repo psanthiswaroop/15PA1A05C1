@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+   <input type="text" id="inp" onkeyup="Prime()" placeholder="enter a number">
+   <button id="check" onclick="Prime()">check</button>
+   <p id="res"></p>
+   <script>
+   function Prime(){
+     var output='',x;
+     x=document.getElementById("inp").value;
+     if(isNaN(x) || x<1)
+       output="invalid input";
+     else{   
+       if(x==0 || x==1){
+         output=x+" is not a prime";
+       
+       }
+        else{
+         if(x==2 || x==3 || x==5 ||x==7)
+            output=x+" is prime";
+         else if(x%2==0 || x%3==0 || x%5==0 ||x%7==0)
+           output=x+" is not prime";
+         else 
+           output=x+" is prime";
+        }
+     }
+     document.getElementById("res").innerHTML = output ;
+     document.getElementById("res").style.color="blue";
+  }
+   </script>
+</html>

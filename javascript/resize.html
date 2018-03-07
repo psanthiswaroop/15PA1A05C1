@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+  <body onresize="fun()">
+    <p id="res"></p>
+  <script>
+    function fun(){
+      var output,w,h;
+      w=window.outerWidth;
+      h=window.outerHeight;
+      output=w+"X"+h;
+      document.getElementById("res").innerHTML = output;
+    }
+  </script>
+  </body>  
+</html>

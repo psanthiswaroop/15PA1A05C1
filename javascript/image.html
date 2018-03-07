@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+  <img id="change" src="featured-cake.png" width="250px" height="200px" onmouseover="big()" onmouseout="small(this)">
+  <script>
+    function big(){
+      document.getElementById("change").style.width="300px";
+      document.getElementById("change").style.height="250px";
+    }
+    function small(x){
+      x.style.width="250px";
+      x.style.height="200px";
+    }
+  </script>
+</html>

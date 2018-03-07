@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE employeeinfo[
+<!ELEMENT employeeinfo (employee)*>
+<!ELEMENT employee (employeeno,name,department,telephone,email)>
+<!ELEMENT employeeno (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT department (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
+<employeeinfo>
+	<employee>
+		<employeeno>120</employeeno>
+		<name>Swaroop</name>
+		<department>manager</department>
+		<telephone>9494291278</telephone>
+		<email>swaroop@gmail.com</email>
+	</employee>
+	<employee>
+		<employeeno>121</employeeno>
+		<name>Basha</name>
+		<department>Director</department>
+		<telephone>9856472310</telephone>
+		<email>basha@gmail.com</email>
+	</employee>
+	<employee>
+		<employeeno>122</employeeno>
+		<name>krishna</name>
+		<department>CEO</department>
+		<telephone>9568742310</telephone>
+		<email>krishna@gmail.com</email>
+	</employee>
+</employeeinfo>

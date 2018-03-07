@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+   Principle:<input type="text" id="p" placeholder=Principle><br><br>
+   Time(Years):<input type="text" id="t" placeholder="Time in Years"><br><br>
+   Rate of Interest:<input type="text" id="r" placeholder="Rate of Interest"><br><br>
+   <button id="check" onclick="Si()">Calculate</button>
+   <p id="res">htfghv</p>
+   <script>
+   function Si(){
+     var si,p,t,r;
+     p=document.getElementById("p").value;
+     t=document.getElementById("t").value;
+     r=document.getElementById("r").value;
+     if (isNaN(p) || p < 1 ||isNaN(t) ||t< 1 ||isNaN(r) || r < 1) {
+        si = "Input not valid";
+     }
+     else{
+        si=(p*t*r)/100;
+     }
+     document.getElementById("res").innerHTML = si ;
+     document.getElementById("res").style.color="blue";
+  }
+   </script>
+</html>
